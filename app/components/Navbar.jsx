@@ -20,8 +20,8 @@ const navLinks = [
         href: "#experiences"
     },
     {
-        title: "Portfolios",
-        href: "#portfolios"
+        title: "Portfolio",
+        href: "#portfolio"
     },
     {
         title: "Contact",

@@ -16,13 +16,15 @@ const HeroSection = () => {
                     <TypeAnimation
                         sequence={[
                             "Irpan",
-                            500,
+                            1000,
                             "Web Developer",
-                            500,
+                            1000,
                             "Fullstack Dev",
-                            500,
+                            1000,
                             "Backend Dev",
-                            500,
+                            1000,
+                            "System Design",
+                            1000,
                         ]}
                         wrapper="span"
                         speed={50}
