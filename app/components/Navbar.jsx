@@ -9,23 +9,23 @@ import MobileMenu from './MobileMenu'
 const navLinks = [
     {
         title: "Home",
-        href: "#home"
+        path: "#home"
     },
     {
         title: "About",
-        href: "#about"
+        path: "#about"
     },
     {
         title: "Experiences",
-        href: "#experiences"
+        path: "#experiences"
     },
     {
         title: "Portfolio",
-        href: "#portfolio"
+        path: "#portfolio"
     },
     {
         title: "Contact",
-        href: "#contact"
+        path: "#contact"
     }
 ]
 
@@ -59,7 +59,9 @@ const Navbar = () => {
                 <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
                     {
                         navLinks.map((link, index) => (
-                            <NavLink key={index} href={link.href} title={link.title} />
+                            <li key={index}>
+                                <NavLink href={link.path} title={link.title} />
+                            </li>
                         ))
                     }
                 </ul>
