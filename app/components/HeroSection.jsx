@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
+import Link from 'next/link'
 
 const HeroSection = () => {
   return (
@@ -19,11 +20,11 @@ const HeroSection = () => {
                             1000,
                             "Web Developer",
                             1000,
-                            "Fullstack Dev",
+                            "Fullstack Developer",
                             1000,
-                            "Backend Dev",
+                            "Backend Developer",
                             1000,
-                            "System Design",
+                            "System Designer",
                             1000,
                         ]}
                         wrapper="span"
@@ -31,11 +32,12 @@ const HeroSection = () => {
                         repeat={Infinity}
                     />
                 </h1>
-                <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Quaeram fugit beatae quibusdam. </p>
-
+                <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>A dedicated software developer passionate about creating innovative and efficient technology solutions. 
+                    Explore further to see how I blend creativity and technical expertise to bring ideas to life</p>
                 <div>
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-500 via-green-400 to-blue-500 hover:bg-slate-200 text-white'>Hire Me</button>
+                    <Link href={'#contact'}>
+                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-500 via-green-400 to-blue-500 hover:bg-slate-200 text-white'>Hire Me</button>
+                    </Link>
                     <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-lime-400 text-white border border-lime-300 mt-3'>Download CV</button>
                 </div>
             </div>

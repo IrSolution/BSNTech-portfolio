@@ -16,10 +16,6 @@ const navLinks = [
         path: "#about"
     },
     {
-        title: "Experiences",
-        path: "#experiences"
-    },
-    {
         title: "Portfolio",
         path: "#portfolio"
     },

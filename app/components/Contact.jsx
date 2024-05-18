@@ -28,7 +28,8 @@ const Contact = () => {
     
     const response = await fetch(endpoint, options);
     const result = await response.json();
-    if(result.status === 200) {
+    
+    if(result.error === null) {
       console.log("Message sent.")
       setEmailSubmited(true);
     }
@@ -44,7 +45,7 @@ const Contact = () => {
       from-lime-600 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4
       -left-4 transform -translate-x-1/2 -translate-1/2'
       ></div>
-      <div className='z-10'>
+      <div className='z-1'>
         <h5 className='text-xl font-bold text-white my-2'>
           Let&apos;s Connect!
         </h5>
@@ -62,7 +63,7 @@ const Contact = () => {
             />
           </Link>
           <Link href='linkedin.com/in/irpanabdulrahman'>
-              <Image
+              <Image  
                 src={LinkedinIcon}
               alt='Linkedin Icon'>
               </Image>

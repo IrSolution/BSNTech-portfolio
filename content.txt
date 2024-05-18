@@ -1,0 +1,14 @@
+home :
+english version :
+
+A dedicated software developer passionate about creating innovative and efficient technology solutions. 
+Here, you'll find an overview of my career journey, the projects I've worked on, 
+and the experiences that have shaped me into the professional I am today. 
+Explore further to see how I blend creativity and technical expertise to bring ideas to life
+
+indonesian version :
+Seorang pengembang perangkat lunak yang berdedikasi dalam menciptakan solusi teknologi inovatif dan efisien.
+Di sini, Anda akan menemukan sekilas tentang perjalanan karir saya, proyek-proyek yang telah saya kerjakan, 
+dan pengalaman yang telah membentuk saya menjadi profesional yang saya banggakan hari ini. 
+Jelajahi lebih lanjut untuk melihat bagaimana saya menggabungkan kreativitas dan keahlian 
+teknis untuk membawa ide-ide menjadi kenyataan
