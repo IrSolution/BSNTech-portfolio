@@ -38,7 +38,10 @@ const HeroSection = () => {
                     <Link href={'#contact'}>
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-500 via-green-400 to-blue-500 hover:bg-slate-200 text-white'>Hire Me</button>
                     </Link>
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-lime-400 text-white border border-lime-300 mt-3'>Download CV</button>
+                    <Link href={window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'https://docs.google.com/document/d/121CLTYsBlAOa_zBShME2AimXwibYZix_-Hla_Y0mTKY/edit?usp=sharing' :
+                    'https://docs.google.com/document/d/1agEQvzKNKvDUee_0u6ddEY7uZnpY7XCu0XLqv18_OBo/edit?usp=drive_link'}>
+                        <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-lime-400 text-white border border-lime-300 mt-3'>Download CV</button>
+                    </Link>
                 </div>
             </div>
 

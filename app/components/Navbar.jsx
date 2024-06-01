@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link href={"/"} 
             className='text-3xl md:text-5xl text-white font-semibold'
             >
-                <span className='text-lime-600 font-extrabold'>WIN</span>
+                <span className='text-lime-600 font-extrabold'>BSN</span>
                 Tech
             </Link>
             <div className='mobile-menu block md:hidden'>
